@@ -1,0 +1,171 @@
+@page "/solution"
+@inject HttpClient Http
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solution</title>
+</head>
+
+<body>
+    <nav class="nav1">
+        <div>
+            <div class="nav2">
+                <img class="nav4" src="css\images\v84_486.png" />
+            </div>
+        </div>
+        <ul class="nav6">
+            <li class="nav5">
+                <div>&nbsp; &nbsp; &nbsp;LIBRA TECH</div>
+            </li>
+        </ul>
+        <input class="bg-primary nav7" type="search" placeholder="Search">
+        <ul>
+            <li class="nav8">
+                <div>Home</div>
+            </li>
+            <li class="nav9">
+                <div>Solution</div>
+            </li>
+            <li class="nav10">
+                <div>Course</div>
+            </li>
+            <li class="nav11">
+                <div>Job</div>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="bodyA">
+        <div class="bodyA1">Our Products</div>
+        <div class="bodyA2">
+            <div class="bodyA3">
+                <img class="bodyA4" src="css\images\v84_134.png">
+            </div>
+            <div class="bodyA5">Sed ut perspiciatis</div>
+            <div class="bodyA11">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia.</div>
+        </div>
+
+        <div class="bodyA6">Our Products</div>
+        <div class="bodyA7">
+            <div class="bodyA8">
+                <img class="bodyA9" src="css\images\v84_139.png">
+            </div>
+        </div>
+        <div class="bodyA10">Nemo enim ipsam</div>
+        <div class="bodyA12">
+            Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia.
+        </div>
+    </div>
+
+
+    <div class="bodyB">
+        <div class="bodyB1">
+            <div class="bodyB2"></div>
+        </div>
+
+        <div class="bodyB3">
+            <div class="bodyB4">
+                Sed ut perspiciatis unde omnis
+            </div>
+            <div class="bodyB5">
+                Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni
+                dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem.
+            </div>
+        </div>
+    </div>
+
+    <div class="bodyC">
+        <div class="bodyC2">
+            Sed ut perspiciatis unde omnis
+        </div>
+        <div class="bodyC3">
+            Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni
+            dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem.
+        </div>
+        <div class="bodyC1">
+        </div>
+    </div>
+
+    <div class="bodyB">
+        <div class="bodyB1">
+            <div class="bodyB2"></div>
+        </div>
+
+        <div class="bodyB3">
+            <div class="bodyB4">
+                Sed ut perspiciatis unde omnis
+            </div>
+            <div class="bodyB5">
+                Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni
+                dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem.
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="bodyD">
+        <div class="bodyD1">
+            <div class="bodyD2"></div>
+        </div>
+
+        <div class="bodyD3">
+            <div class="bodyD4">
+                Sed ut perspiciatis unde omnis
+            </div>
+            <div class="bodyD5">
+                Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni
+                dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem.
+            </div>
+        </div>
+    </div>
+
+@foreach (var dataUser in dataUsers){
+    <div class="bodyE">
+        <div class="bodyE1">Our Partner</div>
+        <div>@dataUser.NumberID</div>
+        <div>@dataUser.username</div>
+        <div>@dataUser.Provice</div>
+        <div class="bodyE2">Our Customer</div>
+        <div class="bodyE3"></div>
+    </div>
+}
+    <footer class="footerB">
+        <div class="footerB2"><img class="foterB1" src="css\images\v84_486.png"></div>
+        <div class="footerB3">Home</div>
+        <div class="footerB3">Solution</div>
+        <div class="footerB3">Coures</div>
+        <div class="footerB3">Jobs</div>
+
+        <div class="footerB4">© LIBRA TECH, Inc. 2020. We love our users!</div>
+    </footer>
+
+</body>
+
+</html>
+
+
+ @code {
+    private DataUser[] dataUsers;
+
+    protected override async Task OnInitializedAsync()
+    {
+        dataUsers = await Http.GetFromJsonAsync<DataUser[]>("sample-data/customer.json");
+    }
+
+    public class DataUser
+    {
+        public string username { get; set; }
+
+        public string Provice { get; set; }
+
+        public string NumberID { get; set; }
+
+    }
+} 

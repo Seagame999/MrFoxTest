@@ -1,0 +1,758 @@
+.nav1 {
+  /* Navigation C */
+  position: absolute;
+  width: 1680px;
+  height: 60px;
+  left: 0px;
+  top: 0px;
+
+  background: #3460d1;
+}
+
+.nav2 {
+  /* Rectangle 7 */
+  position: absolute;
+  width: 71px;
+  height: 60px;
+  left: 0px;
+  top: 0px;
+
+  background: #ffffff;
+}
+
+.nav3 {
+  /* Sample Logo */
+  position: absolute;
+  width: 122.07px;
+  height: 32px;
+  left: 56px;
+  top: 14px;
+}
+
+.nav4{
+  /* 101814539_184411879608597_5666643309277219445_n 1 */
+position: absolute;
+width: 43.77px;
+height: 49.13px;
+left: 13px;
+top: 5px;
+
+background: url(css\images\v84_486.png);
+border: 1px solid #000000;
+box-sizing: border-box;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.nav5{
+  /* LIBRA TECH */
+
+position: absolute;
+left: 0%;
+right: -81.04%;
+top: 0%;
+bottom: 0%;
+
+font-family: Comfortaa;
+font-style: normal;
+font-weight: normal;
+font-size: 28.4444px;
+line-height: 32px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.015em;
+
+color: #FFFFFF;
+}
+
+.nav6{
+  /* Sample Logo */
+position: absolute;
+width: 122.07px;
+height: 32px;
+left: 56px;
+top: 14px;
+}
+
+.nav7{
+  /* Group 10 */
+position: absolute;
+width: 684px;
+height: 39px;
+left: 480px;
+top: 11px;
+}
+
+.nav8{
+  /* Home */
+
+
+position: absolute;
+width: 47px;
+height: 18px;
+left: 1270px;
+top: 21px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.015em;
+
+/* Gray 6 */
+
+color: #F2F2F2;
+
+}
+
+.nav9{
+  /* Products */
+position: absolute;
+width: 62px;
+height: 18px;
+left: 1373px;
+top: 21px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.015em;
+
+/* Gray 6 */
+
+color: #F2F2F2;
+}
+
+.nav10{
+  /* Courese */
+
+
+position: absolute;
+width: 61px;
+height: 18px;
+left: 1493px;
+top: 21px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.015em;
+
+/* Gray 6 */
+
+color: #F2F2F2;
+}
+
+.nav11{
+  /* Jobs */
+position: absolute;
+width: 35px;
+height: 18px;
+left: 1601px;
+top: 21px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.015em;
+
+/* Gray 6 */
+
+color: #F2F2F2;
+}
+
+.bodyA{
+  /* Body A */
+position: absolute;
+width: 1680px;
+height: 960px;
+left: 1px;
+top: 60px;
+
+background: #FFFFFF;
+}
+
+.bodyA1{
+  /* Our Products */
+position: absolute;
+width: 365px;
+height: 67px;
+left: 90px;
+top: 138px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 72px;
+/* or 150% */
+
+letter-spacing: -0.015em;
+
+color: #3460D1;
+}
+
+.bodyA2{
+  /* Group */
+position: absolute;
+width: 545px;
+height: 560px;
+left: 90px;
+top: 282px;
+}
+
+.bodyA3{
+  /* Rectangle */
+position: absolute;
+width: 545px;
+height: 560px;
+left: 90px;
+top: 282px;
+
+background: #FFFFFF;
+border: 1px solid rgba(0, 0, 0, 0.5);
+box-sizing: border-box;
+}
+
+.bodyA4{
+  /* Rectangle */
+position: absolute;
+width: 545px;
+height: 275px;
+left: 90px;
+top: 282px;
+}
+
+.bodyA5{
+  /* Sed ut perspiciatis */
+position: absolute;
+width: 382.39px;
+height: 36px;
+left: 171.31px;
+top: 628px;
+
+/* Body H4 */
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 36px;
+/* identical to box height, or 150% */
+
+letter-spacing: -0.015em;
+
+color: #000000;
+}
+
+.bodyA6{
+  /* Our Service */
+
+position: absolute;
+width: 474px;
+height: 77px;
+left: 1001px;
+top: 138px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 72px;
+/* or 150% */
+
+letter-spacing: -0.015em;
+
+color: #3460D1;
+}
+
+.bodyA7{
+  /* Rectangle */
+
+
+position: absolute;
+width: 540px;
+height: 560px;
+left: 1001px;
+top: 277px;
+
+background: #FFFFFF;
+border: 1px solid rgba(0, 0, 0, 0.5);
+box-sizing: border-box;
+}
+
+.bodyA8{
+  /* Rectangle */
+position: absolute;
+width: 540px;
+height: 275px;
+left: 1001px;
+top: 277px;
+}
+
+.bodyA9{
+  /* Rectangle */
+position: absolute;
+width: 540px;
+height: 275px;
+left: 1001px;
+top: 277px;
+}
+
+.bodyA10{
+  /* Nemo enim ipsam */
+
+
+position: absolute;
+width: 301px;
+height: 36px;
+left: 1067px;
+top: 623px;
+
+/* Body H4 */
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 36px;
+/* identical to box height, or 150% */
+
+letter-spacing: -0.015em;
+
+color: #000000;
+
+}
+
+.bodyA11{
+  /* Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia. */
+
+
+position: absolute;
+width: 382.39px;
+height: 90px;
+left: 171.31px;
+top: 688px;
+
+/* Body P */
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 30px;
+/* or 167% */
+
+letter-spacing: -0.015em;
+
+color: rgba(0, 0, 0, 0.8);
+
+
+}
+
+.bodyA12{
+  position: absolute;
+width: 382.39px;
+height: 90px;
+left: 171.31px;
+top: 688px;
+
+/* Body P */
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 30px;
+/* or 167% */
+
+letter-spacing: -0.015em;
+
+color: rgba(0, 0, 0, 0.8);
+}
+
+.bodyB{
+  /* Body B */
+position: absolute;
+width: 1680px;
+height: 600px;
+left: 1px;
+top: 1020px;
+
+background: rgba(229, 229, 229, 0.47);
+}
+
+.bodyB1{
+  /* Rectangle */
+position: absolute;
+width: 840px;
+height: 600px;
+left: 0px;
+top: 0px;
+}
+
+.bodyB2{
+  /* Rectangle */
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #E5E5E5;
+border: 1px solid rgba(0, 0, 0, 0.3);
+box-sizing: border-box;
+}
+
+.bodyB3{
+  /* Group */
+position: absolute;
+width: 686px;
+height: 150px;
+left: 914px;
+top: 225px;
+}
+
+.bodyB4{
+  /* Sed ut perspiciatis unde omnis */
+
+
+position: absolute;
+width: 686px;
+height: 36px;
+left: 914px;
+top: 225px;
+
+/* Body H4 */
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 36px;
+/* identical to box height, or 150% */
+
+letter-spacing: -0.015em;
+
+color: #3460D1;
+}
+
+
+.bodyB5{
+  /* Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem. */
+position: absolute;
+width: 686px;
+height: 90px;
+left: 914px;
+top: 285px;
+
+/* Body P */
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 30px;
+/* or 167% */
+
+letter-spacing: -0.015em;
+
+color: rgba(0, 0, 0, 0.8);
+
+}
+
+.bodyC{
+  /* Body C */
+position: absolute;
+width: 1680px;
+height: 600px;
+left: 1px;
+top: 1620px;
+
+background: #FFFFFF;
+}
+
+.bodyC1{
+  /* Rectangle */
+position: absolute;
+width: 840px;
+height: 600px;
+left: 840px;
+top: 0px;
+}
+
+.bodyC2{
+  /* Sed ut perspiciatis unde omnis */
+position: absolute;
+width: 686px;
+height: 36px;
+left: 80px;
+top: 225px;
+
+/* Body H4 */
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 36px;
+/* identical to box height, or 150% */
+
+letter-spacing: -0.015em;
+
+color: #3460D1;
+}
+
+.bodyC3{
+  /* Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem. */
+
+
+position: absolute;
+width: 686px;
+height: 90px;
+left: 80px;
+top: 285px;
+
+/* Body P */
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 30px;
+/* or 167% */
+
+letter-spacing: -0.015em;
+
+color: rgba(0, 0, 0, 0.8);
+
+}
+
+
+.bodyD{
+  /* Body D */
+position: absolute;
+width: 1680px;
+height: 600px;
+left: 1px;
+top: 1020px;
+
+background: rgba(229, 229, 229, 0.47);
+}
+
+.bodyD1{
+  /* Rectangle */
+position: absolute;
+width: 840px;
+height: 600px;
+left: 0px;
+top: 0px;
+}
+
+.bodyD2{
+  /* Rectangle */
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #E5E5E5;
+border: 1px solid rgba(0, 0, 0, 0.3);
+box-sizing: border-box;
+}
+
+.bodyD3{
+  /* Group */
+position: absolute;
+width: 686px;
+height: 150px;
+left: 914px;
+top: 225px;
+}
+
+.bodyD4{
+  /* Sed ut perspiciatis unde omnis */
+
+
+position: absolute;
+width: 686px;
+height: 36px;
+left: 914px;
+top: 225px;
+
+/* Body H4 */
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 36px;
+/* identical to box height, or 150% */
+
+letter-spacing: -0.015em;
+
+color: #3460D1;
+}
+
+
+.bodyD5{
+  /* Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem. */
+position: absolute;
+width: 686px;
+height: 90px;
+left: 914px;
+top: 285px;
+
+/* Body P */
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 30px;
+/* or 167% */
+
+letter-spacing: -0.015em;
+
+color: rgba(0, 0, 0, 0.8);
+
+}
+
+.bodyE{
+  /* Body E */
+position: absolute;
+width: 1680px;
+height: 588px;
+left: 0px;
+top: 2820px;
+}
+
+.bodyE1{
+  /* The largest community of photo enthusiasts */
+position: absolute;
+width: 1392px;
+height: 72px;
+left: 522px;
+top: 110px;
+}
+
+.bodyE2{
+  /* The largest community of photo enthusiasts */
+position: absolute;
+width: 1392px;
+height: 72px;
+left: -242px;
+top: 106px;
+}
+
+.bodyE3{
+  /* Rectangle */
+position: absolute;
+width: 173px;
+height: 76px;
+left: 1421px;
+top: 406px;
+}
+
+.footerB{
+  /* Footer B */
+position: absolute;
+width: 1680px;
+height: 264px;
+left: 1px;
+top: 3408px;
+
+background: #3460D1;
+}
+
+.footerB1{
+  /* 101814539_184411879608597_5666643309277219445_n 1 */
+position: absolute;
+width: 43.77px;
+height: 49.13px;
+left: 91px;
+top: 95px;
+
+background: url(css\images\v84_486.png)
+}
+
+.footerB2{
+  /* Rectangle 7 */
+position: absolute;
+width: 55px;
+height: 60px;
+left: 85px;
+top: 90px;
+
+background: #FFFFFF;
+}
+
+.footerB3{
+  /* Jobs */
+
+
+position: absolute;
+width: 55px;
+height: 29px;
+left: 1146px;
+top: 108px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.015em;
+
+/* Gray 6 */
+
+color: #F2F2F2;
+}
+
+.footerB4{
+  /* © LIBRA TECH, Inc. 2020. We love our users! */
+
+position: absolute;
+width: 326px;
+height: 24px;
+left: 1326px;
+top: 115px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 24px;
+/* identical to box height, or 160% */
+
+text-align: center;
+letter-spacing: -0.015em;
+
+color: #FFFFFF;
+
+}
